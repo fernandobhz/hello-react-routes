@@ -69,7 +69,6 @@ function App() {
         <Switch>
           <Route path="/soma/:a/:b" component={UsaSoma} />
           <Route path="/multiplicacao/:a/:b" component={UsaMultiplicacao} />
-          <Route path="/dividir" component={UsaDividir} />
         </Switch>
       </HashRouter>
       <hr />
