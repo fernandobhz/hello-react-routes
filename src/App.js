@@ -38,6 +38,10 @@ function App() {
         <Link to="/multiplicacao/10/200">Multiplicação</Link>
 
         <hr />
+        <a href="/#/soma/10/200">Soma a href</a><br />
+        <a href="/#/multiplicacao/10/200">Multiplicacao a href</a><br />
+
+        <hr />
         <h1>Usando HashRouter</h1>
 
         <Route path="/soma/:a/:b" component={UsaSoma} />
